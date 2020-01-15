@@ -27,7 +27,7 @@
 		11D5761B23CE192E0001F9C3 /* BTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5761A23CE192E0001F9C3 /* BTManager.swift */; };
 		11D5761E23CE196A0001F9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D5761C23CE196A0001F9C3 /* Main.storyboard */; };
 		11D5762123CE1DF10001F9C3 /* BTManager+BluetoothDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5762023CE1DF10001F9C3 /* BTManager+BluetoothDelegate.swift */; };
-		11D5762323CE1F7C0001F9C3 /* BTManager+Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5762223CE1F7C0001F9C3 /* BTManager+Interaction.swift */; };
+		11D5762323CE1F7C0001F9C3 /* BTManager+Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5762223CE1F7C0001F9C3 /* BTManager+Interactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,7 @@
 		11D5761A23CE192E0001F9C3 /* BTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTManager.swift; sourceTree = "<group>"; };
 		11D5761D23CE196A0001F9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11D5762023CE1DF10001F9C3 /* BTManager+BluetoothDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BTManager+BluetoothDelegate.swift"; sourceTree = "<group>"; };
-		11D5762223CE1F7C0001F9C3 /* BTManager+Interaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BTManager+Interaction.swift"; sourceTree = "<group>"; };
+		11D5762223CE1F7C0001F9C3 /* BTManager+Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BTManager+Interactor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,7 +283,7 @@
 		11D5761F23CE1DD00001F9C3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				11D5762223CE1F7C0001F9C3 /* BTManager+Interaction.swift */,
+				11D5762223CE1F7C0001F9C3 /* BTManager+Interactor.swift */,
 				11D5762023CE1DF10001F9C3 /* BTManager+BluetoothDelegate.swift */,
 				112883B623CE38D50092E7E9 /* BTManager+PeripheralDelegate.swift */,
 				112883C823CE65DA0092E7E9 /* BTManager+Notifications.swift */,
@@ -403,7 +403,7 @@
 				11D5760423CE12D00001F9C3 /* AppDelegate.swift in Sources */,
 				11D5761023CE13650001F9C3 /* DevicesViewController+TableDataSource.swift in Sources */,
 				11D5760323CE12D00001F9C3 /* SceneDelegate.swift in Sources */,
-				11D5762323CE1F7C0001F9C3 /* BTManager+Interaction.swift in Sources */,
+				11D5762323CE1F7C0001F9C3 /* BTManager+Interactor.swift in Sources */,
 				112883C923CE65DA0092E7E9 /* BTManager+Notifications.swift in Sources */,
 				11D5761223CE13800001F9C3 /* DevicesViewController+Functions.swift in Sources */,
 				112883C523CE4D570092E7E9 /* DeviceCell+Setter.swift in Sources */,
